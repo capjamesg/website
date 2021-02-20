@@ -6,7 +6,7 @@ layout: default
 	<p>Technical Content Manager @ Career Karma</p>
 	<p>Hello! I am James. I like to read (📖), brew coffee (☕), write (✏️), and code (💻).</p>
 	<p>At Career Karma, I help maintain our technical content base, contributing articles and overseeing the production of writing from our other writers. I also produce infrequent research papers.</p>
-	<p>Email me at jamesgoca@protonmail.com.</p>
+	<p>Email me at <a href="mailto:jamesgoca@protonmail.com">jamesgoca@protonmail.com</a>.</p>
 </section>
 <section>
 	<h2>Geek Code 👓</h2>
