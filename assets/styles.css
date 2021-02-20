@@ -55,3 +55,7 @@ nav li a {
 .outdated {
 	color: darkred;
 }
+
+pre {
+	white-space: pre-wrap;
+}
