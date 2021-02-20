@@ -14,7 +14,7 @@ To apply such a tag, I employed the use of Jekyll. I first assigned a variable w
 
 If the result of my variable is less than the stated value, it means a post was published before 2021. So, I mark that post as outdated on my blog. Here is the full code that makes this feature work:
 
-{% comment %} 
+{% raw %} 
 ```
 {% if nowtime < "20210101" %}
 	<p>Published on {{ page.date | date_to_string }}.</p>
@@ -23,7 +23,7 @@ If the result of my variable is less than the stated value, it means a post was 
 	<p>Published on {{ page.date | date_to_string }}.</p>
 {% endif %}
 ```
-{% endcomment %} 
+{% endraw %} 
 
 Every post that meets the aforementioned rule displays the text "This post is from the previous iteration of this blog and may be outdated." below the date on which the post was published. I apply a dark red colour to this text to attract attention to the disclaimer.
 
