@@ -1,0 +1,39 @@
+html {
+	background-color: white;
+	font-family: "Open Sans";
+	font-size: 20px;
+}
+
+body {
+	margin: 50px auto;
+	max-width: 650px;
+	padding: 3em;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("open_sans.ttf");
+}
+
+img {
+	border-radius: 20px;
+}
+
+p code {
+	background-color: white;
+	padding: 10px;
+}
+
+a, a:visited {
+	color: #2e8bc0;
+	border-bottom: 2px dotted #2e8bc0;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
