@@ -51,3 +51,7 @@ nav li {
 nav li a {
 	display: block;
 }
+
+.outdated {
+	color: darkred;
+}

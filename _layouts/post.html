@@ -3,12 +3,13 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-{% assign nowtime page.date | date: '%Y%m%d' %}
+{% assign nowtime = page.date | date: '%Y%m%d' %}
 
 {% if nowtime < "20210101" %}
-	<p>Published on {{ page.date | date_to_string }}. <span style="color: red;">This post is from my previous blog and may be outdated.</span>
+	<p>Published on {{ page.date | date_to_string }}.</p>
+	<p class="outdated">This post is from the previous iteration of this blog and may be outdated.</p>
 {% else %}
-<p>Published on {{ page.date | date_to_string }}</p>
+<p>Published on {{ page.date | date_to_string }}.</p>
 {% endif %}
 
 {{ content }}
