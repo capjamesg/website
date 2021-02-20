@@ -7,7 +7,6 @@ layout: default
 	<p>Hello! I am James. I like to read (📖), brew coffee (☕), write (✏️), and code (💻).</p>
 	<p>At Career Karma, I help maintain our technical content base, contributing articles and overseeing the production of writing from our other writers. I also produce infrequent research papers.</p>
 	<p>Email me at jamesgoca@protonmail.com.</p>
-	<a href="/blog.html">Click here to see my blog posts.</a>
 </section>
 <section>
 	<h2>Geek Code 👓</h2>
