@@ -38,6 +38,13 @@ paginate_path: "/blog/page:num/"
 
 permalink: /:year/:month/:day/:title:output_ext
 
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      is_post: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
