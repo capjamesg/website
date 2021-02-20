@@ -1,5 +1,5 @@
 ---
-ayout: post
+layout: post
 categories: ["Web", "Post"]
 title: "Bringing Back My Website"
 ---
